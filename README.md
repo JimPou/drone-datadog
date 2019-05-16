@@ -13,6 +13,7 @@ steps:
   settings:
     api_key: 
     type: gauge
+    value: 1
     metric_name: drone.metric
     tags: [ tag1:value1, tag2:value2 ]
 ```
@@ -30,6 +31,7 @@ steps:
     api_key: 
       from_secret: datadog_api_key
     type: gauge
+    value: 1
     metric_name: drone.metric
     tags: [ tag1:value1, tag2:value2 ]
 

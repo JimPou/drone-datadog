@@ -12,5 +12,3 @@ curl -X POST -H "Content-type: application/json" \
         ]
     }" \
 "https://app.datadoghq.com/api/v1/series?api_key=${PLUGIN_API_KEY}"
-
-env
